@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request - The Ultimate 30 Seconds Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            color: white;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #FFD23F;
+            font-weight: 600;
+        }
+
+        .content {
+            background: rgba(15, 52, 96, 0.9);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #FFD23F;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 210, 63, 0.3);
+        }
+
+        .section h3 {
+            color: #00B4D8;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .section p, .section li {
+            color: #E0E0E0;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background: rgba(0, 180, 216, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #00B4D8;
+            margin: 20px 0;
+        }
+
+        .deletion-box {
+            background: rgba(255, 107, 53, 0.2);
+            border: 2px solid #FF6B35;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .deletion-box h3 {
+            color: #FF6B35;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .deletion-box .email {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #FFD23F;
+            margin: 15px 0;
+        }
+
+        .method {
+            background: rgba(6, 255, 165, 0.1);
+            border: 1px solid #06FFA5;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .method h4 {
+            color: #06FFA5;
+            margin-bottom: 10px;
+        }
+
+        .back-home {
+            display: inline-block;
+            background: linear-gradient(135deg, #00B4D8, #0077B6);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 180, 216, 0.3);
+        }
+
+        .back-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 180, 216, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Heading.jpg" alt="The Ultimate 30 Seconds Game">
+            <p>Request Data Deletion</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <div class="highlight">
+                    <p><strong>Your Privacy Rights:</strong> You have the right to request deletion of your personal data from The Ultimate 30 Seconds Game.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>How to Delete Your Data</h2>
+                <p>You can delete your data from The Ultimate 30 Seconds Game using any of these methods:</p>
+
+                <div class="method">
+                    <h4>🔧 Method 1: Clear App Data (Immediate)</h4>
+                    <ul>
+                        <li>Go to your device Settings</li>
+                        <li>Find "Apps" or "Application Manager"</li>
+                        <li>Select "The Ultimate 30 Seconds Game"</li>
+                        <li>Tap "Storage" → "Clear Data"</li>
+                        <li>All local data will be immediately deleted</li>
+                    </ul>
+                </div>
+
+                <div class="method">
+                    <h4>🗑️ Method 2: Uninstall App (Immediate)</h4>
+                    <ul>
+                        <li>Uninstall The Ultimate 30 Seconds Game from your device</li>
+                        <li>All local data including teams, preferences, and game history will be permanently deleted</li>
+                        <li>Reinstalling will start with a clean slate</li>
+                    </ul>
+                </div>
+
+                <div class="method">
+                    <h4>📧 Method 3: Email Request</h4>
+                    <p>If you need assistance or have played network games, email us:</p>
+                    <div class="deletion-box">
+                        <h3>Contact for Data Deletion</h3>
+                        <div class="email">joelapexs@gmail.com</div>
+                        <p><strong>Include in your email:</strong></p>
+                        <ul style="text-align: left; max-width: 400px; margin: 0 auto;">
+                            <li>Subject: "Data Deletion Request"</li>
+                            <li>Your request to delete data</li>
+                            <li>Any specific game sessions or network games you participated in</li>
+                        </ul>
+                        <p style="margin-top: 15px;"><strong>Response Time:</strong> Within 48 hours</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>What Data Gets Deleted</h2>
+                
+                <h3>Local Data (Deleted Immediately)</h3>
+                <ul>
+                    <li>Player and team names</li>
+                    <li>Custom questions and categories</li>
+                    <li>Game preferences and settings</li>
+                    <li>Game statistics and history</li>
+                    <li>Question tracking data</li>
+                </ul>
+
+                <h3>Network Game Data</h3>
+                <ul>
+                    <li>Temporary session data is automatically deleted when games end</li>
+                    <li>No permanent data is stored on our servers</li>
+                    <li>Firebase session data expires automatically</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Important Notes</h2>
+                <div class="highlight">
+                    <ul>
+                        <li><strong>Immediate Effect:</strong> Local data deletion is permanent and immediate</li>
+                        <li><strong>No Recovery:</strong> Deleted data cannot be recovered</li>
+                        <li><strong>Fresh Start:</strong> After deletion, you can use the app normally with clean settings</li>
+                        <li><strong>No Account:</strong> Since no account is required, data is tied only to your device</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Need Help?</h2>
+                <p>If you have questions about data deletion or need assistance:</p>
+                <ul>
+                    <li>Email us at: <strong>joelapexs@gmail.com</strong></li>
+                    <li>We respond to all requests within 48 hours</li>
+                    <li>View our full <a href="index.html" style="color: #FFD23F;">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <p style="color: #B0B0B0; font-size: 0.9rem;">
+                    <strong>Last Updated:</strong> July 2025
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
